@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer');
 const runTest = async(testObject, options = { headless: true }) => {
     /*
      * Run a single test from a browser and test sequence
-     * Options.trackRequests = [] with 
+     * 
      */
 
     const browser = await puppeteer.launch({ headless: options.headless });
